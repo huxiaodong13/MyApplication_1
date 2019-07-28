@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="150dp">
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+            <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="48dp"
+                    android:text="期刊名称"
+                    android:textSize="20sp"
+                    android:id="@+id/where_query_tv1"/>
+            <EditText
+                    android:layout_width="280dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="120dp"
+                    android:id="@+id/where_query_etName"
+                    android:layout_marginTop="30dp"/>
+        </RelativeLayout>
+        <Button
+                android:id="@+id/where_query_btnQuery"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="查询"
+                android:layout_marginTop="30dp"/>
+    </LinearLayout>
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="290dp">
+        <ListView
+                android:id="@+id/where_query_lv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+        </ListView>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/where_query_btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back" />
+
+</RelativeLayout>

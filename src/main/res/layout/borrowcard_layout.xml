@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+    <ListView
+            android:layout_width="match_parent"
+            android:layout_height="631dp"
+            android:id="@+id/borrowcard_lvPersons">
+    </ListView>
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp">
+        <Button
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:text="Add"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/borrowcard_btnAdd"/>
+        <Button
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:text="Back"
+                android:layout_marginLeft="310dp"
+                android:id="@+id/borrowcard_btnBack"/>
+    </RelativeLayout>
+
+</LinearLayout>
